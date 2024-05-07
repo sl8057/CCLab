@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  width: 1300px;
+  height: 400px;
+}
+
+.paragraph{
+  width: 40%;
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.paragraph1{
+  background-color: lightcoral;
+
+  flex: 1;
+  order: 2;
+  width: 50%;
+}
+
+.paragraph2{
+  background-color: lightcoral;
+
+  flex: 2;
+  order: 2;
+  width: 50%;
+}
+.paragraph3{
+  background-color: lightcoral;
+
+  flex: 3;
+  order: 2;
+  width: 50%;
+}
+.paragraph4{
+  background-color: lightcoral;
+
+  flex: 4;
+  order: 2;
+  width: 50%;
+}
+
+#canvasContainer {
+  display: block;
+  /* z-index: -1; */
+  /* top: 0px; */
+  /* left: 0px; */
+  /* position: absolute; */
+}
+
+.header{
+  flex: 1;
+  order: 1;
+  text-align: center;
+  font-size: 40px;
+  border: 5px;
+  background-color: cadetblue;
+  padding: 20px;
+
+}
+

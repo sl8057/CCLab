@@ -1,0 +1,142 @@
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tiger Ghosts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/lib/p5.js"></script>
+  <script src="js/lib/p5.sound.js"></script>
+  
+  <style>
+    
+    body{
+    	
+      display: flex;
+      flex-wrap: wrap; 
+    	
+    }
+    
+    body > * {
+    	
+      background: #eee;
+      padding: 2rem;
+      text-align: center;
+      border: 5px solid white;
+      
+      
+    }
+    
+    .header{
+    	
+      flex: 1 100%;
+      order: 1;
+      font-weight: bold;
+      font-size: 2em;
+    }
+    
+    .footer{
+    	
+      flex: 1 100%;
+      order: 4;
+    }
+    
+    .sidebar{
+    	
+      flex: 1;
+      order: 3;
+      
+    }
+    
+    .main{
+    	
+      flex: 2;
+      order: 2;
+    }
+
+    @media (max-width: 480px) {
+      .header{
+      
+      flex: 1 100%;
+      order: 1;
+      }
+    
+      .footer{
+        
+        flex: 2 100%;
+        order: 2;
+      }
+      
+      .sidebar{
+        
+        flex: 1 100%;
+        order: 1;
+      }
+      
+      .main{
+        
+        flex: 3 100%;
+        order: 2;
+      }
+
+      img {
+        max-width: 100%;
+      }
+    }
+    
+  </style>
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header">Tiger Ghost</header>
+<main class="main">Music Visualization
+  <div id="canvasContainer">
+    <script src="js/lib/sketch2.js"></script>
+  </div>
+
+</main>
+<aside class="sidebar">Lyrics
+  <p>
+  Who are you there? Come closer <br>
+  Right, a little closer, that's it, awesome <br>
+  A wanderer walking fearlessly through the night <br>
+  Listen to me for a moment <br>
+  Sipping water with leaves floating in it <br>
+  Take a brief rest <br>
+  Amitabha Buddha, the divine spirit bestows <br>
+  Amitabha Buddha, the divine spirit <br>
+  I'm a young man of twenty this year <br>
+  Lost my life being arrogant to catch a tiger <br>
+  Can't cross the celestial realm like this <br>
+  Indeed, may you help me <br>
+  Splendid, splendid indeed <br>
+  Swaying shoulders together with me <br>
+  Until we lose consciousness and collapse tonight <br>
+  Beneath the fangs of the mountain god <br>
+  Amitabha Buddha, Amitabha Buddha <br>
+  Let's try the spell (Amitabha Buddha, Amitabha Buddha) <br>
+  Will your life firmly attach? (Amitabha Buddha, Amitabha Buddha) <br>
+  Let's try the spell (Amitabha Buddha, Amitabha Buddha) <br>
+  When will this humble thread connect? (Amitabha Buddha, Amitabha Buddha) <br>
+  Between the trees is the spirit of the bear (asura, baba, baba, ta) <br>
+  At the bottom of the pond is the water ghost (asura, baba, baba, ta) <br>
+  Beyond the wall is the phoenix, behind the wanderer is the goblin (asura, baba, baba, ta, asura, baba, baba, ta) <br>
+  Joyous and delightful, the bright moon shines, hurrah <br>
+  On Mount Yeong, the tiger lord travels <br>
+  Splendid, splendid indeed <br>
+  Yes, let's sway our shoulders once more <br>
+  Let's see your insignificant talent <br>
+  This is your tomb <br> 
+  Splendid, splendid indeed (splendid and excellent, listen and bow) <br>
+  Let's all sway our shoulders together (the ghost who came last year has returned as a spirit) <br>
+  Like a fleeting dream when you open your eyes <br>
+  On this night, on the path of the mountain lord <br>
+  I shall take you away    
+  </p></aside>
+<footer class="footer">
+  <ul>
+    <a href="index.html"><li>Home</a></li>
+  </ul>INTM-SHU 103  Creative Coding Lab</footer>
+<script type="text/javascript" src="scripts/script.js"></script>  
+  
+</body>
