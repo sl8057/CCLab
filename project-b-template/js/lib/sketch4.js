@@ -27,12 +27,12 @@ function draw() {
   story();
 }
 
-function run(){
+function death(){
   image(img2, 300, 0, 800, 800);
   text("...Lucky you. Don't climb this mountain at this late night ever again.", 400, 600, 600);
 }
 
-function death(){
+function run(){
   image(img3, 300, 0, 800, 800);
   text("Don't worry. Once you bring another person to replace you, you will be free like me!", 400, 600, 600);
 }
